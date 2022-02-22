@@ -58,6 +58,7 @@ def sendData():
     getData()
 
 def enterRoom():
+    global message_entry
     message_window = Tk()
     message_window.config(bg='#AFC1D6')
     message_window.geometry("600x500")
